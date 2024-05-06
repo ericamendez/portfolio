@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+  /***************************************
+  
+  *****************************************/
+
+header{
+    padding: 10px;
+    display:grid;
+    grid-template-columns: 2.7fr 1fr 2fr;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid rgb(49, 49, 49);
+}
+
+main{
+    padding: 60px 10px 40px 10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: 100;
+    width: 100%;
+}
+
+main img{
+    width: 15px;
+}
+
+#aboutme{
+    padding-top: 20px;
+    padding-right: 140px;
+}
+
+#jobs {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px 10px;
+}
+
+.small{
+    font-size: 0.7em;
+    font-weight: 400;
+    color: rgb(117, 117, 117);
+}
+
+#jobs p {
+    margin: 0;
+}
+
+#projects {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px 50px;
+}
+
+#projects img {
+    width: 100%;
+    margin: auto auto;
+    border: 10px solid rgb(255, 255, 255);
+}   
+
+.tech {
+    text-decoration: underline;
+    text-decoration-color: rgb(18, 217, 147);
+}
