@@ -81,7 +81,7 @@ main img{
 
 .parallax {
     /* The image used */
-    background-image: url("/images/DSC11_449.jpg");
+    background-image: url("../images/DSC11_449.jpg");
   
     /* margin-top: 60px; */
     /* Set a specific height */
