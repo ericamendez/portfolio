@@ -119,33 +119,3 @@ footer {
     padding: 20px 10px 10px 10px;
     border-bottom: 1px solid rgb(49, 49, 49);
 }
-
-
-
-
-  /* tablet */
-/* @media (min-width: 1420px) and (max-width: 1563px){
-    .parallax {
-        height: 50vh; 
-      }
-}
-@media (min-width: 1200px) and (max-width: 1419px){
-    .parallax {
-        height: 40vh; 
-      }
-}
-@media (min-width: 1186px) and (max-width: 1199px){
-    .parallax {
-        height: 40vh; 
-      }
-}
-@media (min-width: 929px) and (max-width: 1185px){
-    .parallax {
-        height: 35vh; 
-      }
-}
-@media (max-width: 928px){
-    .parallax {
-        height: 30vh; 
-      }
-} */
