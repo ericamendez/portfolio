@@ -10,7 +10,7 @@ body{
     background-color: rgb(0, 0, 0);
     padding-left: 40px;
     padding-right: 40px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
   /***************************************
@@ -34,6 +34,7 @@ main{
     grid-template-columns: 1fr 1fr;
     font-weight: 100;
     width: 100%;
+    overflow: hidden;
 }
 
 main img{
@@ -66,6 +67,7 @@ main img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px 50px;
+    padding-bottom: 40px;
 }
 
 #projects img {
@@ -95,7 +97,7 @@ main img{
   }
 
   .wrapper {
-    height: 100vh;
+    /* height: 100vh; */
     overflow-y: auto;
     overflow-x: hidden;
     perspective: 10px;
@@ -104,6 +106,18 @@ main img{
   .hike{
     width: 100%;
   }
+
+footer {
+    margin-top:40px;
+}
+
+.project, .connect{
+    padding: 20px 10px 10px 10px;
+    border-bottom: 1px solid rgb(49, 49, 49);
+}
+
+
+
 
   /* tablet */
 @media (min-width: 1420px) and (max-width: 1563px){
