@@ -10,6 +10,7 @@ body{
     background-color: rgb(0, 0, 0);
     padding-left: 40px;
     padding-right: 40px;
+    margin-top: 60px;
 }
 
   /***************************************
@@ -17,9 +18,9 @@ body{
   *****************************************/
 
 header{
-    padding: 10px;
+    padding: 20px 10px 10px 10px;
     display:grid;
-    grid-template-columns: 2.7fr 1fr 2fr;
+    grid-template-columns: 3fr 1fr 2fr;
     background-color: rgb(0, 0, 0);
     width: 100%;
     position: fixed;
@@ -28,7 +29,7 @@ header{
 }
 
 main{
-    padding: 60px 10px 40px 10px;
+    padding: 60px 10px 80px 10px;
     display:grid;
     grid-template-columns: 1fr 1fr;
     font-weight: 100;
@@ -77,3 +78,31 @@ main img{
     text-decoration: underline;
     text-decoration-color: rgb(18, 217, 147);
 }
+
+.parallax {
+    /* The image used */
+    background-image: url("/images/DSC11_449.jpg");
+  
+    /* margin-top: 60px; */
+    /* Set a specific height */
+    min-height: 45vh; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+  .wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+  }
+
+  .hike{
+    width: 100%;
+  }
+
+  
