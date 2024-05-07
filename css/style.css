@@ -16,6 +16,10 @@ body{
   /***************************************
   
   *****************************************/
+/* 
+.top{
+
+} */
 
 header{
     padding: 20px 10px 10px 10px;
@@ -82,30 +86,30 @@ main img{
 }
 
 .parallax {
-    /* The image used */
     background-image: url("../images/DSC11_449.jpg");
   
-    /* margin-top: 60px; */
-    /* Set a specific height */
-    height: 55vh; 
-  
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% auto;
-  }
+    
+}
 
-  .wrapper {
-    /* height: 100vh; */
+.hike{
+    width: 100%;
+    opacity: 0;
+}
+
+.top div{
+    height: 300px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.wrapper {
     overflow-y: auto;
     overflow-x: hidden;
     perspective: 10px;
-  }
-
-  .hike{
-    width: 100%;
-  }
+}
 
 footer {
     margin-top:40px;
@@ -120,7 +124,7 @@ footer {
 
 
   /* tablet */
-@media (min-width: 1420px) and (max-width: 1563px){
+/* @media (min-width: 1420px) and (max-width: 1563px){
     .parallax {
         height: 50vh; 
       }
@@ -144,4 +148,4 @@ footer {
     .parallax {
         height: 30vh; 
       }
-}
+} */
