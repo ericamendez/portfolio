@@ -48,6 +48,10 @@ main img{
 #aboutme{
     padding-top: 20px;
     padding-right: 140px;
+    font-size: larger;
+}
+.larger-font{
+    font-size: larger;
 }
 
 #jobs {
