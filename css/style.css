@@ -221,3 +221,7 @@ footer {
     width: 120px;
     text-align: center;
 }
+
+.highlight{
+    background-color: rgba(18, 217, 147, .18);
+}
