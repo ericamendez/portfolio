@@ -16,20 +16,30 @@
 </head>
 
 <body>
-    <section class="parallax top">
+    <section class="nav">
+        <ul>
+            <li><a href="#nav" class="underline-hover-effect">Home</a></li>
+            <li><a href="#me" class="underline-hover-effect">About Me</a></li>
+            <li><a href="#projects-top" class="underline-hover-effect">Projects</a></li>
+            <li><a href="#connect" class="underline-hover-effect">Contact</a></li>
+        </ul>
+    </section>
+    <section class="parallax top" id="nav">
         <img class="hike" src="images/hikecrop.jpg" alt="">
     </section>
     <section class="wrapper">
-        <header>
+        <header id="me">
             <section class="larger-font">Erica Mendez</section>
             <section>Software Engineer</section>
             <section>Boston, MA</section>
         </header>
         <main>
             <section id="aboutme">
-                As a biology graduate turned software engineer, I am a versatile learner adept at quickly mastering new
+                As a biology graduate turned software engineer, I am a versatile learner adept at quickly mastering
+                new
                 skills and concepts.
-                I am passionate about learning about the world around me through STEM and making education accessible to
+                I am passionate about learning about the world around me through STEM and making education
+                accessible to
                 empower underrepresented communities.
                 With 5 years of experience in coding, I have developed a strong foundation in multiple programming
                 languages
@@ -46,8 +56,10 @@
                     <p>Expert in Residence/Software Engineer on the program team responsible for running a coding
                         bootcamp
                         that taught
-                        full-stack web development <span class="tech">(HTML, CSS, Javascript, Node.js, Express, MongoDB,
-                            React)</span> to over 200+ developers at a non-profit serving underrepresented communities
+                        full-stack web development <span class="tech">(HTML, CSS, Javascript, Node.js, Express,
+                            MongoDB,
+                            React)</span> to over 200+ developers at a non-profit serving underrepresented
+                        communities
                         in
                         Boston and Philadelphia.</p>
                 </section>
@@ -58,9 +70,11 @@
                 </section>
                 <section>
                     <p>Software Engineer on the AgilePT/ProjectHUb team building the internally developed tool for
-                        project management <span class="tech">(React, Redux, PHP, Graphql, SQL, Java)</span> used across
+                        project management <span class="tech">(React, Redux, PHP, Graphql, SQL, Java)</span> used
+                        across
                         the
-                        entire company, serving 5000+ employees to keep track of projects and improve productivity.</p>
+                        entire company, serving 5000+ employees to keep track of projects and improve productivity.
+                    </p>
                 </section>
 
                 <section>
@@ -75,10 +89,14 @@
                 </section>
             </section>
         </main>
-        <section class="project larger-font">Projects</section>
+
+        <section class="project larger-font" id="projects-top">Projects</section>
         <section id="projects">
             <section>
-                <img src="images/add_task.gif">
+                <section>
+                    <img src="images/taskGPT/edit.gif" alt="">
+                    <img src="images/taskGPT/add_task.gif">
+                </section>
                 <h3>Tasks GPT</h3>
                 <p>A full stack web application that integrates OpenAI's GPT-3 API to help users brainstorm and
                     breakdown
@@ -86,7 +104,11 @@
                 <p class="tech">Tech: React, CSS, Graphql, Node, MOngoDB, OpenAI API</p>
             </section>
             <section>
-                <img src="images/arprint/arDemo.png" alt="">
+                <section>
+                    <img src="images/arprint/home.png" alt="">
+                    <img src="images/arprint/artist.png" alt="">
+                    <img src="images/arprint/arFull.png" alt="">
+                </section>
                 <h3>ARPrint Shop</h3>
                 <p>A print shop that integrates Augmented Reality (AR) technology to allow customers to visualize photo
                     prints in their own spaces.</p>
@@ -94,14 +116,15 @@
                     Stripe online payment procesing,</p>
             </section>
             <section>
-                <img src="images/vending.png" alt="">
+                <img src="images/vending/screen.png" alt="">
+                <img src="images/vending/vending.png" alt="">
                 <h3>Vending Machine</h3>
                 <p>Fullstack vending machine app that allows adming to add digital vending machine items to display, and
                     lets users view, and purchase items</p>
                 <p class="tech">Tech: HTML5, CSS3, Javascript, Node.js, MongoDB, Express.js</p>
             </section>
         </section>
-        <footer>
+        <footer id="connect">
             <section class="connect larger-font">
                 Let's Connect
             </section>

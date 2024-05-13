@@ -8,9 +8,10 @@ body{
     font-style: normal;
     color: white;
     background-color: rgb(0, 0, 0);
-    padding-left: 40px;
+    /* padding-left: 40px;
     padding-right: 40px;
-    margin-top: 50px;
+    margin-top: 50px; */
+    margin:0;
 }
 
   /***************************************
@@ -32,6 +33,32 @@ header{
     border-bottom: 1px solid rgb(49, 49, 49);
 }
 
+.nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: black;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.nav li{
+    margin-right:40px
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;;
+}
+
+
 main{
     padding: 60px 10px 80px 10px;
     display:grid;
@@ -50,6 +77,11 @@ main img{
     padding-right: 140px;
     font-size: larger;
 }
+
+#me{
+    scroll-margin-top: 1000px;
+}
+
 .larger-font{
     font-size: larger;
 }
@@ -153,3 +185,23 @@ footer {
 .fa-linkedin{
     padding-right: 20px;
 }
+
+.underline-hover-effect {
+    display: inline-block;
+    padding-bottom: 0.25rem; /* defines the space between text and underline */
+    position: relative;
+  }
+  
+  .underline-hover-effect::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(18, 217, 147);
+    transition: width 0.25s ease-out;
+  }
+  .underline-hover-effect:hover::before {
+    width: 100%;
+  }
