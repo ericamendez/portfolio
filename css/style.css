@@ -25,7 +25,7 @@ body{
 header{
     padding: 20px 10px 10px 10px;
     display:grid;
-    grid-template-columns: 3fr 1fr 2fr;
+    grid-template-columns: 2.55fr .9fr 2fr;
     background-color: rgb(0, 0, 0);
     width: 100%;
     position: fixed;
@@ -145,6 +145,8 @@ main img{
     overflow-y: auto;
     overflow-x: hidden;
     perspective: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 footer {
