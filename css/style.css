@@ -158,9 +158,8 @@ footer {
 }
 
 .connect-content{
-    padding: 20px 10px 10px 10px;
-
-   display: grid;
+    padding: 20px 40px 50px 10px;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px 10px;  
     margin-top: 20px;  
@@ -206,3 +205,19 @@ footer {
   .underline-hover-effect:hover::before {
     width: 100%;
   }
+
+  .fa-copy{
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  #copyPopup {
+    display: none;
+    transform: translate(80%, 10%);
+    font-size: small;
+    background-color: rgba(18, 217, 147, .8);
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 120px;
+    text-align: center;
+}
